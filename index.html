@@ -13,16 +13,21 @@
 
 <div class="container main">
   <div class="text-center buttons">
-    <button id='number'>Number Fact</button>
-    <button id='chuck'>Chuck Norris Fact</button>
+    <button id='number' class='button'>Number Fact</button>
+    <button id='chuck' class='button'>Chuck Norris Fact</button>
   </div>
   
   <div id='output'>
-    Ajax response will appear here
+    <p>Click a button to begin.</p>
   </div>
+</div>
+
+<div class="page-footer text-center">
+  <p>Created by Monroe Mann using numbersapi.com and api.chucknorris.io.</p>
 </div>
   
   <script src='main.js'></script>
+
 </body>
 
 
@@ -41,10 +46,18 @@
   align-content:  center;
 }
 
+.button {
+  border-radius: 15px;
+  height:  50px;
+  width:  350px;
+  margin-top: 5px;
+}
+
 #output {
   display:  grid;
   justify-content: center;
   align-content:  center;
+  font-size: 50px;
 }
 
 </style>
